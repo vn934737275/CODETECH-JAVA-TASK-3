@@ -1,0 +1,59 @@
+OVERVIEW:
+
+The Number Guessing Game is a simple Java program where the computer generates a random number between 1 and 100, and the player tries to guess it within a limited number of attempts. The program provides hints like "too high" or "too low" after each guess to assist the player in narrowing down the correct answer.
+
+Features:
+
+    Random Number Generation: 
+        The program utilizes the Random class to generate a random number between 1 and 100.
+    User Interaction:
+        The player interacts with the program by entering their guesses via the console.
+    Hint System: 
+        After each guess, the program provides hints indicating whether the guessed number is too high or too low relative to the secret number.
+    Limited Attempts:
+        The player has a maximum of 5 attempts to guess the correct number. If they fail to do so within the specified attempts, the game ends.
+
+Implementation:
+
+    Random Number Generation:
+        The Random class is used to generate a random number between 1 and 100, inclusive.
+        The generated random number represents the secret number that the player needs to guess.
+
+    User Interaction:
+        The program prompts the player to enter their guess via the console.
+        Each guess is compared against the secret number to determine whether it is correct, too high, or too low.
+
+    Hint System:
+        After each guess, the program provides feedback to the player indicating whether their guess is too high or too low relative to the secret number.
+        This feedback assists the player in adjusting their subsequent guesses to converge towards the correct answer.
+
+    Limited Attempts:
+        The player has a maximum of 5 attempts to guess the correct number.
+        If the player guesses the correct number within the specified attempts, they win the game. Otherwise, they lose.
+
+Usage:
+
+    Compile the Program:
+
+javac NumberGuessingGame.java
+
+Run the Program:
+
+    java NumberGuessingGame
+
+    Gameplay:
+        The program generates a random number between 1 and 100.
+        The player enters their guesses via the console and receives hints after each guess.
+        The game ends when the player correctly guesses the number or runs out of attempts.
+
+EXPLANATION:
+
+The Number Guessing Game program is designed to provide an engaging and interactive experience for players to guess a randomly generated number. Here's how it works:
+
+    Random Number Generation:
+        The program generates a random number between 1 and 100 using the Random class.
+    User Interaction:
+        The player interacts with the program by entering their guesses via the console.
+    Hint System: 
+        After each guess, the program provides feedback to the player indicating whether their guess is too high or too low relative to the secret number.
+    Limited Attempts: The player has a maximum of 5 attempts to guess the correct number. If they fail to do so within the specified attempts, the game ends.
